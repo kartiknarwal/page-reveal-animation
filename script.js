@@ -5,6 +5,8 @@ const loaderSpinner = document.querySelector(".loader-spinner");
 const splitTitle = SplitText.create(".title h1", {
   type: "chars",
   charsClass: "char",
+
+  // THIS IS THE COMMENT TO BE ADDED FOR SEPRATION OF CONTENT
 });
 const images = gsap.utils.toArray(".image-container");
 gsap.set(splitTitle.chars, {
